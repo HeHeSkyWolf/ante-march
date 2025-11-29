@@ -1,0 +1,291 @@
+/* Buttons for illustrations */
+button.illustration-but {
+    /* background */
+    background-color: #ffd000;
+
+    /* border */
+    border: 1px solid #ffc300;
+    border-radius: 10px;
+
+    /* padding */
+    padding-top: 2px;
+
+    /* text */
+    font-size: 14px;
+    color: #864742;
+
+    /* size */
+    height: 30px;
+    width: 82px;
+}
+
+/* The bar that contains buttons for a illustration */
+div.illustration-but-bar {
+    /* background */
+    background-color: #71b0dc;
+
+    /* margin */
+    margin-left: auto;
+    margin-right: auto;
+
+    /* padding */
+    padding: 10px;
+
+    /* size */
+    height: 50px;
+    width: 960px;
+}
+
+/* Grid style for bosses */
+div.bosses {
+    /* display */
+    display: grid;
+
+    /* grid */
+    grid-template-columns: 1fr 1fr 1fr 1fr 1fr 1fr 1fr 1fr;
+    grid-gap: 8px;
+
+    /* size */
+    width: 100%;
+}
+
+/* The grid in the illustration of bosses */
+div.bosses div {
+    /* background */
+    background-color: #aadbf0;
+
+    /* border */
+    border: 1px solid blue;
+
+    /* padding */
+    padding-top: 8px;
+    padding-bottom: 8px;
+
+    /* text */
+    text-align: center;
+
+    /* size */
+    height: auto;
+    width: 98px;
+}
+
+/* The image of the boss in the grid */
+div.bosses img {
+    /* size */
+    height: 80px;
+    width: 80px;
+}
+
+/* The text of the boss in the grid */
+div.bosses p {
+    /* margin */
+    margin-top: 0px;
+    margin-bottom: 0px;
+
+    /* text */
+    font-size: 14px;
+}
+
+/* Grid style for cars */
+div.cars {
+    /* display */
+    display: grid;
+
+    /* grid */
+    grid-template-columns: 1fr 1fr 1fr 1fr 1fr 1fr;
+    grid-gap: 24px;
+
+    /* size */
+    width: 100%;
+}
+
+/* The grid in the illustration of cars */
+div.cars div {
+    /* background */
+    background-color: #aadbf0;
+
+    /* border */
+    border: 1px solid blue;
+    
+    /* padding */
+    padding-top: 8px;
+    padding-bottom: 8px;
+
+    /* text */
+    text-align: center;
+    
+    /* size */
+    width: 120px;
+    height: auto;
+}
+
+/* The image of the car in the grid */
+div.cars img {
+    /* size */
+    height: 90px;
+    width: 90px;
+}
+
+/* The text of the car in the grid */
+div.cars p {
+    /* margin */
+    margin-top: 0px;
+    margin-bottom: 0px;
+
+    /* text */
+    font-size: 16px;
+}
+
+/* Grid style for monsters */
+div.monsters {
+    /* display */
+    display: grid;
+
+    /* grid */
+    grid-template-columns: 1fr 1fr 1fr 1fr 1fr 1fr 1fr 1fr;
+    grid-gap: 8px;
+
+    /* size */
+    width: 100%;
+}
+
+/* The grid in the illustration of monsters */
+div.monsters div {
+    /* background */
+    background-color: #aadbf0;
+
+    /* border */
+    border: 1px solid blue;
+
+    /* padding */
+    padding-top: 8px;
+    padding-bottom: 8px;
+
+    /* text */
+    text-align: center;
+
+    /* size */
+    height: auto;
+    width: 98px;
+}
+
+/* The image of the monster in the grid */
+div.monsters img {
+    /* size */
+    height: 80px;
+    width: 80px;
+}
+
+/* The text of the monster in the grid */
+div.monsters p {
+    /* margin */
+    margin-top: 0px;
+    margin-bottom: 0px;
+    
+    /* text */
+    font-size: 14px;
+}
+
+/* The link in the grid of illustration */
+div.bosses a:not(:hover),
+div.cars a:not(:hover),
+div.monsters a:not(:hover) {
+    /* text */
+    color: black;
+}
+
+/* Grid style for videos */
+div.videos {
+    /* display */
+    display: grid;
+    
+    /* grid */
+    grid-template-columns: 1fr 1fr 1fr 1fr 1fr 1fr 1fr 1fr 1fr 1fr;
+    grid-gap: 10px;
+    
+    /* size */
+    width: 100%;
+}
+
+/* The grid in the illustration of videos */
+div.videos div {
+    /* background */
+    background-color: #aadbf0;
+
+    /* border */
+    border: 1px solid blue;
+    
+    /* padding */
+    padding-top: 9px;
+
+    /* position */
+    position: relative;
+
+    /* text */
+    text-align: center;
+
+    /* size */
+    height: 104px;
+    width: 79px;
+}
+
+/* The link in the grid of illustration of videos */
+div.videos a:not(:hover) {
+    /* text */
+    color: black;
+}
+
+/* The image cover of a video */
+div.videos img {
+    /* size */
+    height: 55px;
+    width: 55px;
+}
+
+/* The play icon on a video cover */
+div.videos img.play-icon {
+    /* position */
+    position: absolute;
+    top: 5px;
+    left: 9px;
+    z-index: 1;
+
+    /* size */
+    height: 60px;
+    width: 60px;
+}
+
+/* The link in the grid of illustration of videos */
+div.videos p {
+    /* margin */
+    margin-top: 2px;
+    margin-bottom: 0px;
+
+    /* text */
+    font-size: 12px;
+    font-style: normal;
+    font-weight: normal;
+}
+
+/* The label that shows the video length */
+div.videos span {
+    /* background */
+    background-color: black;
+
+    /* border */
+    border-radius: 5px;
+
+    /* padding */
+    padding: 2px;
+
+    /* position */
+    position: absolute;
+    top: 44px;
+    left: 14px;
+    z-index: 1;
+
+    /* text */
+    color: white;
+    font-size: 10px;
+    font-style: normal;
+}

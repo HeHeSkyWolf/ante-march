@@ -1,0 +1,27 @@
+/* Create a dot line across the content */
+p.dot-line {
+    /* border */
+    border-top: 1px dashed gray;
+
+    /* display */
+    overflow: hidden;
+
+    /* margin */
+    margin-top: 10px;
+    margin-bottom: 10px;
+}
+
+/* The style of links showed in a catalog */
+ul#link-list {
+    /* list */
+    list-style: none;
+
+    /* padding */
+    padding-left: 0px;
+}
+
+/* The style of the date for a link */
+ul#link-list li span {
+    /* margin */
+    margin-right: 10px;
+}

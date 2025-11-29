@@ -1,0 +1,149 @@
+:root {
+    --top-bar-theme: skyblue;
+}
+
+/* Header */
+header#top-bar {
+    /* background */
+    background-color: var(--top-bar-theme);
+
+    /* padding */
+    padding: 8px 0 8px 0;
+
+    /* size */
+    height: 60px;
+    width: 100%;
+}
+
+/* Title of this webpage */
+/* Right now is only for screen reader */
+header#top-bar h1 {
+    /* border */
+    border: 0;
+
+    /* clip */
+    clip: rect(0, 0, 0, 0);
+    clip-path: inset(50%);
+
+    /* margin */
+    margin: -1px;
+
+    /* padding */
+    padding: 0;
+
+    /* overflow */
+    overflow: hidden;
+    
+    /* position */
+    position: absolute;
+
+    /* size */
+    height: 1px;
+    width: 1px;
+
+    /* white-space */
+    white-space: nowrap;
+}
+
+/* Navigation bar */
+header#top-bar nav {
+    /* display */
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    
+    /* size */
+    height: 44px;
+    width: 100%;
+}
+
+/* Position of the header images */
+header#top-bar nav p {
+    /* padding */
+    padding-top: 4px;
+
+    /* margin */
+    margin: 0 0 0 8px;
+}
+
+/* Image in the header bar */
+header#top-bar nav img {
+    /* size */
+    height: 40px;
+    width: auto;
+}
+
+/* Buttons at the header bar */
+header#top-bar div#top-bar-but {
+    /* margin */
+    margin-left: auto;
+    margin-right: 20px;
+}
+
+/* Style of the button at the header bar */
+header#top-bar div#top-bar-but button {
+    /* background */
+    background-color: #ffd000;
+
+    /* border */
+    border: #ffc300;
+    border-radius: 10px;
+
+    /* padding */
+    padding-right: 10px;
+    padding-left: 10px;
+
+    /* size */
+    height: 40px;
+    width: auto;
+
+    /* text */
+    color: #864742;
+    font-size: 16px;
+    font-weight: bold;
+}
+
+/* Changes of the button when hovering on it */
+header#top-bar div#top-bar-but button:hover {
+    /* text */
+    color: #eb942b;
+}
+
+/* Wayback Machine button */
+header#top-bar div#top-bar-but #wayback {
+    /* text */
+    font-family: "Roboto";
+}
+
+header#top-bar div#top-bar-control {
+    /* display */
+    display: flex;
+    align-items: flex-end;
+
+    /* margin */
+    margin-top: 8px;
+
+    /* position */
+    position: relative;
+}
+
+header#top-bar div#top-bar-control div {
+    /* margin */
+    margin-left: auto;
+    margin-right: 40px;
+}
+
+header#top-bar div#top-bar-control div button {
+    /* background */
+    background-color: var(--top-bar-theme);
+
+    /* border */
+    border: none;
+
+    /* position */
+    position: absolute;
+
+    /* size */
+    height: 20px;
+    width: 40px;
+}

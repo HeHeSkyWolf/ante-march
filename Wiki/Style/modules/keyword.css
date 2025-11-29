@@ -1,0 +1,63 @@
+/* section-L1 a class */
+/* assign colour to different links */
+a.boss {
+
+    /* text */
+    color: #ec1000;
+}
+
+a.map {
+    /* text */
+    color: #256378;
+}
+
+a.npc {
+    /* text */
+    color: #a05b00;
+}
+
+a.monster {
+    /* text */
+    color: #2b8100;
+}
+
+a.car {
+    /* text */
+    color: #b33125;
+}
+
+a.miji {
+    /* text */
+    color: #dc1e0c;
+}
+
+a.news {
+    /* text */
+    color: #dc1e0c;
+}
+
+a.mission {
+    /* text */
+    color: #dc1e0c;
+}
+
+a.update {
+    /* text */
+    color: #dc1e0c;
+}
+
+a.ask {
+    /* text */
+    color: #dc1e0c;
+}
+
+a.ref {
+    /* text */
+    font-size: smaller;
+    font-weight: bold;
+    color: #0776dd;
+}
+
+a.ref::before {
+    content: " ";
+}

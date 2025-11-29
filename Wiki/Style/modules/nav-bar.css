@@ -1,0 +1,52 @@
+/* Navigation bar at the header */
+section#nav-bar {
+    /* background */
+    background-color: #dceaf5;
+
+    /* border */
+    border: 5px solid #88b92b;
+
+    /* display */
+    display: flex;
+    justify-content: space-between;
+
+    /* margin */
+    margin-top: 15px;
+    margin-left: auto;
+    margin-right: auto;
+
+    /* padding */
+    padding-top: 4px;
+
+    /* size */
+    height: 50px;
+    width: 960px;
+}
+
+/* The style of the buttons in nav bar */
+button.nav-bar-but {
+    /* background */
+    background-color: #dceaf5;
+
+    /* border */
+    border: none;
+    
+    /* cursor */
+    cursor: pointer;
+
+    /* margin */
+    margin-right: 5px;
+    margin-left: 5px;
+
+    /* padding */
+    padding-bottom: 0px;
+
+    /* size */
+    height: 32px;
+    width: 82px;
+
+    /* text */
+    font-size: 14px;
+    font-weight: bold;
+    color: #11516d;
+}

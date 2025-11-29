@@ -1,0 +1,51 @@
+/* The style for the pagination bar */
+div.pages {
+    /* display */
+    display: flex;
+
+    /* size */
+    height: 40px;
+    width: 100%;
+}
+
+/* The buttons for the pages */
+div.pages ul {
+    /* margin */
+    margin: auto;
+
+    /* padding */
+    padding: 0px;
+}
+
+/* The button of a page */
+div.pages li {
+    /* background */
+    background: white;
+
+    /* border */
+    border: 1px solid gray;
+    border-radius: 5px;
+
+    /* display */
+    display: inline;
+    float: left;
+
+    /* margin */
+    margin: 0 3px 0 3px;
+
+    /* padding */
+    padding: 2px 5px;
+    
+    /* size */
+    height: 26px;
+    width: auto;
+
+    /* text */
+    font-weight: bold;
+}
+
+/* The current page */
+div.pages li#current {
+    /* background */
+    background: skyblue;
+}

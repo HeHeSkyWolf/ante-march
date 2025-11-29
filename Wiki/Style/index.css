@@ -1,0 +1,32 @@
+/* section-L0 a */
+a { 
+    /* text */
+    color: blue;
+    text-decoration: none;
+}
+
+a:hover {
+    /* cursor */
+    cursor: pointer;
+
+    /* text */
+    color: red;
+}
+
+a.inactive {
+    /* text */
+    font-weight: bold;
+    color: red;
+}
+
+/* Main Title */
+h1 {
+    /* text */
+    text-align: center;
+}
+
+/* The style of button when hover on it */
+button:hover {
+    /* text */
+    color: red;
+}
