@@ -14,8 +14,9 @@ Note that this encyclopedia is in Chinese only.
 
 ## Copyright and Content Notice
 
-This website is a non-official, non-profit website created by me as a fan. The **code** of this site is open-source under the [MIT License](./LICENSE).
-External content copyright belongs to its respective owners (such as 7k7k.com), and this site only provides index links.    
+This website is a fan-made, non-official, and non-profit project. The **code** for this site is open-source under the MIT License (see [LICENSE](./LICENSE)).
+
+All external content linked from this website is the property of its respective copyright holders (e.g., 7k7k.com). This site does not host or reproduce copyrighted content; it only provides index links to external resources. 
 
 ## How to launch?
 
