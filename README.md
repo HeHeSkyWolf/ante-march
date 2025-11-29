@@ -2,6 +2,8 @@
 
 Language: [EN](./README.md) / [CN](./README_CN.md)
 
+Update Log: [Log](./log.md)
+
 ## Project Background
 
 SiriusWiki presents information about the game "AnTe March"(安特进行曲), developed by **上海AWT工作室**, with [**7k7k小游戏**](#reference) as one of its publishers.
