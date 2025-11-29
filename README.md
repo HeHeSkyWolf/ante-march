@@ -31,9 +31,9 @@ All external content linked from this website is the property of its respective 
     - This is the extension ID: `ritwickdey.LiveServer`.
     - Make sure you have installed the correct extension!
 
-5. After installation, in the VSCode window, go to File > Open Folder, select the folder that you had uncompressed in step 2.
+5. After installation, in the VSCode window, go to `File > Open Folder`, select the folder that you had uncompressed in step 2.
 
-6. Open the file "安特进行曲.html".
+6. In the VSCode window, open the file `安特进行曲.html`. The file `安特进行曲.html` can be found in the `Wiki` directory.
 
 7. Go to the bottom of the VSCode window and click "Go Live".
 
